@@ -236,7 +236,9 @@ FACE_DETECTOR = os.getenv(
     "opencv_yunet"
 )
 
-FACE_MODEL_PATH = MODELS_DIR / "face_detection_yunet.onnx"
+FACE_MODEL_PATH = (
+    MODELS_DIR / "face_detection_yunet_2023mar.onnx"
+)
 
 FACE_DETECTION_CONFIDENCE = 0.75
 
